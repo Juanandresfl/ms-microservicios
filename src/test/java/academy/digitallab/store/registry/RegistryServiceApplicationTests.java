@@ -1,4 +1,4 @@
-package com.example.store.registry;
+package academy.digitallab.store.registry;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
