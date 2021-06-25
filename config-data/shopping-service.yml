@@ -46,7 +46,7 @@ Feign:
     enabled: true
   circuitbreaker:
     enabled: true
-  hystrix:
+hystrix:
    dashboard:
      proxy-stream-allow-list: "*"
   management:
