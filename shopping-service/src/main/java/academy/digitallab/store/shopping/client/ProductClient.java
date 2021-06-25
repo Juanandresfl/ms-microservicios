@@ -5,8 +5,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping("/products")
 @FeignClient(name = "product-service")
+@RequestMapping(value = "/products")
 public interface ProductClient {
 
     @GetMapping(value = "/{id}")
