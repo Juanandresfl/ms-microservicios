@@ -9,7 +9,7 @@ eureka:
 
 spring:
   config:
-    import: "optional:configserver:"
+    import-check: false
   cloud:
     gateway:
       discovery:
