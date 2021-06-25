@@ -2,6 +2,7 @@ package academy.digitallab.store.shopping.entity;
 
 
 import academy.digitallab.store.shopping.model.Product;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -23,12 +24,12 @@ public class InvoiceItem  {
     @Column(name = "product_id")
     private Long productId;
 
-    @Transient
-    private Product product;
 
     @Transient
     private Double subTotal;
 
+    @Transient
+    private Product product;
 
     public Double getSubTotal(){
         if (this.price >0  && this.quantity >0 ){

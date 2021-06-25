@@ -25,7 +25,6 @@ public class InvoiceServiceImpl implements InvoiceService {
 
     @Autowired
     InvoiceItemsRepository invoiceItemsRepository;
-
     @Autowired
     CustomerClient customerClient;
 

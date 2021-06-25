@@ -17,6 +17,5 @@ public class Product {
     private Double stock;
     private Double price;
     private String status;
-    private Date createAt;
     private Category category;
 }
