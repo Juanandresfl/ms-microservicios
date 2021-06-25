@@ -1,4 +1,4 @@
-package com.example.store.gateway;
+package academy.digitallab.store.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

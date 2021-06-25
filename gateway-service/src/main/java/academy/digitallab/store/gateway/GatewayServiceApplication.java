@@ -1,4 +1,4 @@
-package com.example.store.gateway;
+package academy.digitallab.store.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -9,7 +9,6 @@ eureka:
 
 spring:
   config:
-    import-check: false
   cloud:
     gateway:
       discovery:

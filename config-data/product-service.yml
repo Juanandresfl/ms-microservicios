@@ -40,3 +40,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
